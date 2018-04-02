@@ -42,7 +42,7 @@ public class Email {
     }
 
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Email email = new Email();
         Scanner s = new Scanner(System.in);
         while(true){
@@ -53,5 +53,5 @@ public class Email {
 
 
 
-    }
+    }*/
 }
