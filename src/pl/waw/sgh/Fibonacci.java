@@ -24,10 +24,15 @@ public class Fibonacci {
 
 
     public void doFib(int howmany){
-         int n;
-         for( n=1;n<=howmany;n++){
+         int n=1;
+        /* for( n=1;n<=howmany;n++){
              System.out.println(fibSeq(n));
-         }
+         }*/
+        while(n<=howmany){
+            System.out.println(fibSeq(n));
+            n++;
+
+        }
 
 
     }
