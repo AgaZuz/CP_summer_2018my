@@ -1,5 +1,7 @@
 package pl.waw.sgh;
 
+import java.util.Scanner;
+
 public class ArraySum {
 
     public static int sumArray(int[] array) {
@@ -13,7 +15,8 @@ public class ArraySum {
     public static void main(String[] args) {
 
         int[] arrayInt = new int[]{
-                4, 5, 2, 8 ,3
+               5, 6,31,2
+
         };
         int sum = sumArray(arrayInt);
         System.out.println(sum);
