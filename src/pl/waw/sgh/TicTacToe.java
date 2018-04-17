@@ -27,7 +27,7 @@ public class TicTacToe {
 
                 for (String el : cells) {
 
-                    System.out.println("El: " + el);
+                    //System.out.println("El: " + el);
                     int a = Integer.parseInt(el);
 
                     arrTicTac[x][y] = a;
@@ -43,12 +43,12 @@ public class TicTacToe {
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     if (arrTicTac[i][j] == 0) {
-                       // System.out.println("game is over");
+                        // System.out.println("game is over");
                         isOver=false;
                     }
 
                 }
-                }
+            }
 
 
 
@@ -104,16 +104,16 @@ public class TicTacToe {
             }
 
             if(isOver){
-                System.out.println("the game is done and Lukasz won");
+                //System.out.println("the game is done");
             } else {
-                System.out.println("the game is not over and no one won");
+                System.out.println("the game is not over");
             }
 
 
 
-               // System.out.println("New line");
-                //i++;
-                //System.out.println("Line " + i + " : " + line);
+            // System.out.println("New line");
+            //i++;
+            //System.out.println("Line " + i + " : " + line);
 
 
 
